@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{683BF525-8A83-4E91-9610-74DFAE939505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{7F4DDA84-FD19-4FD5-A282-DA41EEFF8C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransferObjects", "DataTransferObjects\DataTransferObjects.csproj", "{130DA285-D9C7-453B-9D65-EA21B085426D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSpaces", "NameSpaces\NameSpaces.csproj", "{2CE89E1F-9681-4E98-B6BE-37B8B99CBD71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFConsultoras", "WCFConsultoras\WCFConsultoras.csproj", "{8C8802AD-F8CD-4E04-854D-689389C2E9FD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCF_ConsultorasIISHost", "http://localhost:49454", "{E6A6FD78-B569-41D7-B23B-E7E75E91CE8F}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{8c8802ad-f8cd-4e04-854d-689389c2e9fd}|WCFConsultoras.dll;{683BF525-8A83-4E91-9610-74DFAE939505}|Common.dll;{7F4DDA84-FD19-4FD5-A282-DA41EEFF8C51}|Contracts.dll;{130DA285-D9C7-453B-9D65-EA21B085426D}|DataTransferObjects.dll;{2CE89E1F-9681-4E98-B6BE-37B8B99CBD71}|NameSpaces.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/"
+		Debug.AspNetCompiler.PhysicalPath = "WCF_ConsultorasIISHost\"
+		Debug.AspNetCompiler.TargetPath = "..\Publish\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/"
+		Release.AspNetCompiler.PhysicalPath = "WCF_ConsultorasIISHost\"
+		Release.AspNetCompiler.TargetPath = "..\Publish\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WCF_ConsultorasIISHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{683BF525-8A83-4E91-9610-74DFAE939505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683BF525-8A83-4E91-9610-74DFAE939505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683BF525-8A83-4E91-9610-74DFAE939505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683BF525-8A83-4E91-9610-74DFAE939505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4DDA84-FD19-4FD5-A282-DA41EEFF8C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4DDA84-FD19-4FD5-A282-DA41EEFF8C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4DDA84-FD19-4FD5-A282-DA41EEFF8C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4DDA84-FD19-4FD5-A282-DA41EEFF8C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130DA285-D9C7-453B-9D65-EA21B085426D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130DA285-D9C7-453B-9D65-EA21B085426D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130DA285-D9C7-453B-9D65-EA21B085426D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130DA285-D9C7-453B-9D65-EA21B085426D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE89E1F-9681-4E98-B6BE-37B8B99CBD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE89E1F-9681-4E98-B6BE-37B8B99CBD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE89E1F-9681-4E98-B6BE-37B8B99CBD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE89E1F-9681-4E98-B6BE-37B8B99CBD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8802AD-F8CD-4E04-854D-689389C2E9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8802AD-F8CD-4E04-854D-689389C2E9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8802AD-F8CD-4E04-854D-689389C2E9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8802AD-F8CD-4E04-854D-689389C2E9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A6FD78-B569-41D7-B23B-E7E75E91CE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A6FD78-B569-41D7-B23B-E7E75E91CE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A6FD78-B569-41D7-B23B-E7E75E91CE8F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A6FD78-B569-41D7-B23B-E7E75E91CE8F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
